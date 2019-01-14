@@ -205,8 +205,9 @@ function levelBoot(){
 function levelBootDood(){
 	container.className = 'container-levelDood'
 	description.innerHTML = ' Je loopt dagen lang te zoeken maar vind niks om het eiland mee af te komen en sterft. <br> GAME OVER!'
-	keuze1.style.display = 'none'
+	keuze1.innerHTML = 'Restart'
 	keuze2.style.display = 'none'
+	keuze1.onclick = begin
 	inventoryItem.style.display = 'none'
 	
 }
