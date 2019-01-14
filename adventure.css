@@ -1,0 +1,80 @@
+body{
+	margin: 0 auto;
+	width: 1800px;
+	height: 800px;
+	text-align: center;
+	color: white;
+}
+#title{
+	margin: 0 auto;
+	font-size: 50px;
+	margin-left: 425px;
+	margin-right: 425px;
+}
+#description{
+	margin: 0 auto;
+	font-size: 30px;
+	margin-left: 425px;
+	margin-right: 425px;
+}
+#game-container{
+	margin: 0 auto;
+	position: absolute;
+}
+.container-level0{
+	background-image: url('eiland02.png');
+}
+.container-levelSleutel{
+	background-image: url('bos.png');
+}
+.container-start{
+	background-image: url('huisje.png');
+}
+.container-level1{
+	background-image: url('giftigeappel.png');
+}
+.container-level2{
+	background-image: url('huisje.png');
+}
+.container-level3{
+	background-image: url('etendrinken.png');
+}
+.container-level4{
+	background-image: url('selfdestruct.png');
+}
+.container-level5{
+	background-image: url('bossen.png');
+}
+.container-level6{
+	background-image: url('raptorhok.png');
+}
+.container-levelDood{
+	background-image: url('Wasted.png');
+}
+.container-level8{
+	background-image: url('Utahraptor.png');
+}
+.container-level9{
+	background-image: url('buitenslapen.png');
+}
+.container-level10{
+	background-image: url('hondenhok.png');
+}
+.container-levelDeur{
+	background-image: url('glazendeur.png');
+}
+.container-levelBoot{
+	background-image: url('boot.png');
+}
+.container-levelFinish{
+	background-image: url('einde.png');
+}
+
+#game-buttons{
+	width:300px;
+	margin:0 auto;
+	height:150px;
+}
+#inventoryItem{
+	
+}
